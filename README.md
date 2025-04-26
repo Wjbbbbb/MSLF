@@ -10,6 +10,9 @@ This project implements a novel style transfer method based on segmentation and 
 - **Multi-scale Feature Fusion**: Fusion of multi-scale features
 - **Attention-guided Fusion**: Guiding the fusion process using attention mechanisms
 
+![](./examples/1.png)
+![](./examples/2.png)
+
 ## Requirements
 
 - Python 3.8+
