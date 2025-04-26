@@ -1,0 +1,24 @@
+# 默认配置文件
+dataset:
+  train_dir: "data/train"
+  val_dir: "data/val"
+  batch_size: 16
+  image_size: [256, 256]  # 训练图像大小
+
+model:
+  style_sam_pretrained: "path/to/style_sam_model"
+  clip_model: "path/to/clip_model"
+  use_agrf: true
+
+training:
+  epochs: 100
+  learning_rate: 0.0001
+  optimizer: "adam"
+  loss_weights:
+    content_loss: 1.0
+    style_loss: 1.0
+    total_loss: 1.0
+
+logging:
+  log_dir: "logs/"
+  save_frequency: 10
